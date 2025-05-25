@@ -1,0 +1,5 @@
+C:\Users\louag\OneDrive\Bureau\CrosshairUI\CrosshairPickerV1.exe
+C:\Users\louag\OneDrive\Bureau\CrosshairUI\CrosshairPickerV1.dll
+C:\Users\louag\OneDrive\Bureau\CrosshairUI\CrosshairPickerV1.deps.json
+C:\Users\louag\OneDrive\Bureau\CrosshairUI\CrosshairPickerV1.runtimeconfig.json
+C:\Users\louag\OneDrive\Bureau\CrosshairUI\CrosshairPickerV1.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrosshairPickerV1", "CrosshairPickerV1\CrosshairPickerV1.csproj", "{A1693A26-7B3D-4729-97FC-CD84FCD5F308}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1693A26-7B3D-4729-97FC-CD84FCD5F308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1693A26-7B3D-4729-97FC-CD84FCD5F308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1693A26-7B3D-4729-97FC-CD84FCD5F308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1693A26-7B3D-4729-97FC-CD84FCD5F308}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E6AE29A-2E7A-4319-BCC4-E5CE2E7F164F}
+	EndGlobalSection
+EndGlobal
