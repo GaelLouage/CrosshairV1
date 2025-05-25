@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eeMvkxAytV4=",
+  "dgSpecHash": "QWFm+Is89cM=",
   "success": true,
   "projectFilePath": "C:\\Users\\louag\\source\\repos\\CrosshairPickerV1\\CrosshairPickerV1\\CrosshairPickerV1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\louag\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

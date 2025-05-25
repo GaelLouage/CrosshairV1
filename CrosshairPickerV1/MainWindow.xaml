@@ -91,7 +91,7 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <Grid Name="mainGrid">
+        <Grid Name="mainGrid" Loaded="mainGrid_Loaded">
             <!-- Define 8x8 Grid -->
             <Grid.RowDefinitions>
                 <RowDefinition Height="20" />
@@ -130,7 +130,7 @@
 
             <TextBlock Text="SIZE" Grid.Row="1" Foreground="White" Grid.Column="1" HorizontalAlignment="Center"/>
 
-            <ComboBox x:Name="cmbColor" Grid.Column="1" Width="240" Grid.Row="5" SelectionChanged="cmbColor_SelectionChanged"  Style="{StaticResource ComboBoxTest2}" Cursor="Hand">
+            <ComboBox x:Name="cmbColor"  Grid.Column="1" Width="240" Grid.Row="5" SelectionChanged="cmbColor_SelectionChanged"  Style="{StaticResource ComboBoxTest2}" Cursor="Hand" Margin="10">
                 <ComboBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal"   Height="20">
@@ -140,6 +140,9 @@
                     </DataTemplate>
                 </ComboBox.ItemTemplate>
             </ComboBox>
+            <StackPanel  Grid.Column="1" Grid.Row="6" Orientation="Horizontal" Margin="5" HorizontalAlignment="Center">
+                <Button x:Name="btnWrite" Content="WRITE"   Margin="10" Background="#A4FFAF" Foreground="#24232B" Width="120" Click="btnWrite_Click"/>
+            </StackPanel>
         </Grid>
     </Grid>
 </Window>

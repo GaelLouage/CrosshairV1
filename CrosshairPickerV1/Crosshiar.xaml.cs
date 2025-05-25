@@ -100,7 +100,5 @@ namespace CrosshairPickerV1
             });
 
         }
-
-
     }
 }

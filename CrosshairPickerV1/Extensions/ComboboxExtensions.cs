@@ -26,6 +26,12 @@ namespace CrosshairPickerV1.Extensions
                 colors.Add(new ColorEntity { Name = brush.Name, Brush = colorBrush });
             }
             cmbColor.ItemsSource = colors;
+            var defaultColor = colors.FirstOrDefault(c => c.Name == "Green");
+            if (defaultColor != null)
+            {
+                cmbColor.SelectedItem = defaultColor;
+            }
+
         }
     }
 }

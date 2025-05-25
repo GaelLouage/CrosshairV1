@@ -18,4 +18,11 @@ namespace CrosshairPickerV1.Models
             return Name ?? "No brush name";
         }
     }
+    public class ColorFileData
+    {
+        public int Size { get; set; }
+        public SolidColorBrush? Brush { get; set; }
+        public int Gap { get; set; }
+        public int Thickness { get;  set; }
+    }
 }
